@@ -274,25 +274,25 @@
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Managed/UnityEditor.dll</HintPath>
     </Reference>
     <Reference Include="System.IO.Abstractions">
-      <HintPath>D:/project/KartingGame/ThrillKarting/Assets/Karting/ML_Agents/Plugins/System.IO.Abstractions.dll</HintPath>
+      <HintPath>D:/project/Karting/ThrillKarting/Assets/Karting/ML_Agents/Plugins/System.IO.Abstractions.dll</HintPath>
     </Reference>
     <Reference Include="System.IO.Abstractions.TestingHelpers">
-      <HintPath>D:/project/KartingGame/ThrillKarting/Assets/Karting/ML_Agents/Plugins/System.IO.Abstractions.TestingHelpers.dll</HintPath>
+      <HintPath>D:/project/Karting/ThrillKarting/Assets/Karting/ML_Agents/Plugins/System.IO.Abstractions.TestingHelpers.dll</HintPath>
     </Reference>
     <Reference Include="Grpc.Core">
-      <HintPath>D:/project/KartingGame/ThrillKarting/Assets/Karting/ML_Agents/Plugins/ProtoBuffer/Grpc.Core.dll</HintPath>
+      <HintPath>D:/project/Karting/ThrillKarting/Assets/Karting/ML_Agents/Plugins/ProtoBuffer/Grpc.Core.dll</HintPath>
     </Reference>
     <Reference Include="System.Interactive.Async">
-      <HintPath>D:/project/KartingGame/ThrillKarting/Assets/Karting/ML_Agents/Plugins/ProtoBuffer/System.Interactive.Async.dll</HintPath>
+      <HintPath>D:/project/Karting/ThrillKarting/Assets/Karting/ML_Agents/Plugins/ProtoBuffer/System.Interactive.Async.dll</HintPath>
     </Reference>
     <Reference Include="Google.Protobuf">
-      <HintPath>D:/project/KartingGame/ThrillKarting/Library/PackageCache/com.unity.barracuda@0.5.0-preview/Barracuda/Plugins/ProtoBuffer/Google.Protobuf.dll</HintPath>
+      <HintPath>D:/project/Karting/ThrillKarting/Library/PackageCache/com.unity.barracuda@0.5.0-preview/Barracuda/Plugins/ProtoBuffer/Google.Protobuf.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Unsafe">
-      <HintPath>D:/project/KartingGame/ThrillKarting/Library/PackageCache/com.unity.burst@1.1.1/Unity.Burst.Unsafe.dll</HintPath>
+      <HintPath>D:/project/Karting/ThrillKarting/Library/PackageCache/com.unity.burst@1.1.1/Unity.Burst.Unsafe.dll</HintPath>
     </Reference>
     <Reference Include="System.IO.Compression.FileSystem">
-      <HintPath>D:/project/KartingGame/ThrillKarting/Library/PackageCache/com.unity.connect.share@4.0.1/Plugins/System.IO.Compression.FileSystem.dll</HintPath>
+      <HintPath>D:/project/Karting/ThrillKarting/Library/PackageCache/com.unity.connect.share@4.0.1/Plugins/System.IO.Compression.FileSystem.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/PlaybackEngines/AppleTVSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -658,100 +658,100 @@
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>D:/project/KartingGame/ThrillKarting/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>D:/project/Karting/ThrillKarting/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Cinemachine">
-      <HintPath>D:/project/KartingGame/ThrillKarting/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+      <HintPath>D:/project/Karting/ThrillKarting/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
     </Reference>
     <Reference Include="MacBLAS">
-      <HintPath>D:/project/KartingGame/ThrillKarting/Library/ScriptAssemblies/MacBLAS.dll</HintPath>
+      <HintPath>D:/project/Karting/ThrillKarting/Library/ScriptAssemblies/MacBLAS.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst">
-      <HintPath>D:/project/KartingGame/ThrillKarting/Library/ScriptAssemblies/Unity.Burst.dll</HintPath>
+      <HintPath>D:/project/Karting/ThrillKarting/Library/ScriptAssemblies/Unity.Burst.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>D:/project/KartingGame/ThrillKarting/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>D:/project/Karting/ThrillKarting/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProBuilder">
-      <HintPath>D:/project/KartingGame/ThrillKarting/Library/ScriptAssemblies/Unity.ProBuilder.dll</HintPath>
+      <HintPath>D:/project/Karting/ThrillKarting/Library/ScriptAssemblies/Unity.ProBuilder.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Play.Publisher.Editor">
-      <HintPath>D:/project/KartingGame/ThrillKarting/Library/ScriptAssemblies/Unity.Play.Publisher.Editor.dll</HintPath>
+      <HintPath>D:/project/Karting/ThrillKarting/Library/ScriptAssemblies/Unity.Play.Publisher.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Barracuda-editor">
-      <HintPath>D:/project/KartingGame/ThrillKarting/Library/ScriptAssemblies/Barracuda-editor.dll</HintPath>
+      <HintPath>D:/project/Karting/ThrillKarting/Library/ScriptAssemblies/Barracuda-editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Editor">
-      <HintPath>D:/project/KartingGame/ThrillKarting/Library/ScriptAssemblies/Unity.Burst.Editor.dll</HintPath>
+      <HintPath>D:/project/Karting/ThrillKarting/Library/ScriptAssemblies/Unity.Burst.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InteractiveTutorials.Core">
-      <HintPath>D:/project/KartingGame/ThrillKarting/Library/ScriptAssemblies/Unity.InteractiveTutorials.Core.dll</HintPath>
+      <HintPath>D:/project/Karting/ThrillKarting/Library/ScriptAssemblies/Unity.InteractiveTutorials.Core.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InternalAPIEditorBridgeDev.001">
-      <HintPath>D:/project/KartingGame/ThrillKarting/Library/ScriptAssemblies/Unity.InternalAPIEditorBridgeDev.001.dll</HintPath>
+      <HintPath>D:/project/Karting/ThrillKarting/Library/ScriptAssemblies/Unity.InternalAPIEditorBridgeDev.001.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProBuilder.Editor">
-      <HintPath>D:/project/KartingGame/ThrillKarting/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll</HintPath>
+      <HintPath>D:/project/Karting/ThrillKarting/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
-      <HintPath>D:/project/KartingGame/ThrillKarting/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
+      <HintPath>D:/project/Karting/ThrillKarting/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>D:/project/KartingGame/ThrillKarting/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>D:/project/Karting/ThrillKarting/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.EditorCoroutines.Editor">
-      <HintPath>D:/project/KartingGame/ThrillKarting/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll</HintPath>
+      <HintPath>D:/project/Karting/ThrillKarting/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>D:/project/KartingGame/ThrillKarting/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>D:/project/Karting/ThrillKarting/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>D:/project/KartingGame/ThrillKarting/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>D:/project/Karting/ThrillKarting/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Barracuda">
-      <HintPath>D:/project/KartingGame/ThrillKarting/Library/ScriptAssemblies/Barracuda.dll</HintPath>
+      <HintPath>D:/project/Karting/ThrillKarting/Library/ScriptAssemblies/Barracuda.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>D:/project/KartingGame/ThrillKarting/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>D:/project/Karting/ThrillKarting/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Postprocessing.Editor">
-      <HintPath>D:/project/KartingGame/ThrillKarting/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
+      <HintPath>D:/project/Karting/ThrillKarting/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
     </Reference>
     <Reference Include="iOSBLAS">
-      <HintPath>D:/project/KartingGame/ThrillKarting/Library/ScriptAssemblies/iOSBLAS.dll</HintPath>
+      <HintPath>D:/project/Karting/ThrillKarting/Library/ScriptAssemblies/iOSBLAS.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InteractiveTutorials.Core.Scripts">
-      <HintPath>D:/project/KartingGame/ThrillKarting/Library/ScriptAssemblies/Unity.InteractiveTutorials.Core.Scripts.dll</HintPath>
+      <HintPath>D:/project/Karting/ThrillKarting/Library/ScriptAssemblies/Unity.InteractiveTutorials.Core.Scripts.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>D:/project/KartingGame/ThrillKarting/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>D:/project/Karting/ThrillKarting/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="BurstBLAS">
-      <HintPath>D:/project/KartingGame/ThrillKarting/Library/ScriptAssemblies/BurstBLAS.dll</HintPath>
+      <HintPath>D:/project/Karting/ThrillKarting/Library/ScriptAssemblies/BurstBLAS.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics">
-      <HintPath>D:/project/KartingGame/ThrillKarting/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
+      <HintPath>D:/project/Karting/ThrillKarting/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Postprocessing.Runtime">
-      <HintPath>D:/project/KartingGame/ThrillKarting/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
+      <HintPath>D:/project/Karting/ThrillKarting/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="com.unity.cinemachine.editor">
-      <HintPath>D:/project/KartingGame/ThrillKarting/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
+      <HintPath>D:/project/Karting/ThrillKarting/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.InteractiveTutorialsFramework">
-      <HintPath>D:/project/KartingGame/ThrillKarting/Library/ScriptAssemblies/UnityEditor.InteractiveTutorialsFramework.dll</HintPath>
+      <HintPath>D:/project/Karting/ThrillKarting/Library/ScriptAssemblies/UnityEditor.InteractiveTutorialsFramework.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProBuilder.AddOns.Editor">
-      <HintPath>D:/project/KartingGame/ThrillKarting/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
+      <HintPath>D:/project/Karting/ThrillKarting/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics.Editor">
-      <HintPath>D:/project/KartingGame/ThrillKarting/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
+      <HintPath>D:/project/Karting/ThrillKarting/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>D:/project/KartingGame/ThrillKarting/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>D:/project/Karting/ThrillKarting/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>D:/project/KartingGame/ThrillKarting/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>D:/project/Karting/ThrillKarting/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
