@@ -1,5 +1,7 @@
 ScriptsOnlyBuild:
   usedScripts:
+    Assembly-CSharp.dll:
+    - SimpleTrigger
     Cinemachine.dll:
     - Cinemachine.CinemachineBasicMultiChannelPerlin
     - Cinemachine.CinemachineBrain
@@ -50,7 +52,6 @@ ScriptsOnlyBuild:
     - SceneObjectGUIDComponent
     Unity.InteractiveTutorials.Core.dll:
     - Unity.InteractiveTutorials.ActiveToolCriterion
-    - Unity.InteractiveTutorials.AnalyticsHelper
     - Unity.InteractiveTutorials.BuildStartedCriterion
     - Unity.InteractiveTutorials.EditorWindowCriterion
     - Unity.InteractiveTutorials.FrameSelectedCriterion
@@ -444,6 +445,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 14718}
     - Class: 114
+      Script: {instanceID: 14738}
+    - Class: 114
       Script: {instanceID: 14776}
     - Class: 114
       Script: {instanceID: 14918}
@@ -460,7 +463,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 15292}
     - Class: 114
-      Script: {instanceID: 15374}
+      Script: {instanceID: 15376}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1812,6 +1815,12 @@ ScriptsOnlyBuild:
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: KartGame.dll
     namespaceName: 
+    className: AudioController
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: KartGame.dll
+    namespaceName: 
     className: TimeManager
   - hash:
       serializedVersion: 2
@@ -1819,12 +1828,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: KartGame.dll
-    namespaceName: 
-    className: AudioController
   platform: 19
   scenePathNames:
   - Assets/Karting/Scenes/IntroMenu.unity
