@@ -964,7 +964,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -1143,14 +1143,14 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 963194226}
+      - m_Target: {fileID: 963194230}
         m_MethodName: set_enabled
         m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
-          m_FloatArgument: 0
+          m_FloatArgument: 5
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
@@ -1164,7 +1164,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 1
-        m_CallState: 2
+        m_CallState: 1
       - m_Target: {fileID: 971595550}
         m_MethodName: SetActive
         m_Mode: 6
@@ -1175,7 +1175,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 2
+        m_CallState: 1
 --- !u!114 &971595554
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1225,7 +1225,6 @@ GameObject:
   - component: {fileID: 1032073514}
   - component: {fileID: 1032073513}
   - component: {fileID: 1032073512}
-  - component: {fileID: 1032073511}
   m_Layer: 5
   m_Name: AudioButtonClose
   m_TagString: Untagged
@@ -1252,21 +1251,6 @@ RectTransform:
   m_AnchoredPosition: {x: -218, y: 18.188995}
   m_SizeDelta: {x: 90, y: 90}
   m_Pivot: {x: 0.5, y: 0}
---- !u!114 &1032073511
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1032073509}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bb6064e92765a4553ad8e16f2d386db3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  objectToToggle: {fileID: 2061599201}
-  mainScenekart: {fileID: 3934862072311242296}
-  resetSelectionAfterClick: 0
 --- !u!114 &1032073512
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1310,7 +1294,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 963194226}
+      - m_Target: {fileID: 963194230}
         m_MethodName: set_enabled
         m_Mode: 6
         m_Arguments:
@@ -1331,7 +1315,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 1
-        m_CallState: 2
+        m_CallState: 1
       - m_Target: {fileID: 1032073509}
         m_MethodName: SetActive
         m_Mode: 6
@@ -1342,7 +1326,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 2
+        m_CallState: 1
 --- !u!114 &1032073513
 MonoBehaviour:
   m_ObjectHideFlags: 0

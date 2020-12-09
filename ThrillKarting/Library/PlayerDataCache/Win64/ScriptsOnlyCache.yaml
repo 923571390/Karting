@@ -1,6 +1,7 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - EmitParticlesOnKartBounce
     - SimpleTrigger
     Cinemachine.dll:
     - Cinemachine.CinemachineBasicMultiChannelPerlin
@@ -446,6 +447,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 14718}
     - Class: 114
       Script: {instanceID: 14738}
+    - Class: 114
+      Script: {instanceID: 14746}
     - Class: 114
       Script: {instanceID: 14776}
     - Class: 114
