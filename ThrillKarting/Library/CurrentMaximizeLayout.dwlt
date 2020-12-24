@@ -14,15 +14,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Children:
   - {fileID: 3}
-  - {fileID: 14}
+  - {fileID: 13}
+  - {fileID: 15}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 30
-    width: 1536
-    height: 731
-  m_MinSize: {x: 534, y: 492}
-  m_MaxSize: {x: 14002, y: 14042}
+    width: 1522
+    height: 717
+  m_MinSize: {x: 982, y: 492}
+  m_MaxSize: {x: 18005, y: 14042}
   vertical: 0
   controlID: -1
 --- !u!114 &2
@@ -33,23 +34,90 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6c262c1329a02fa49b5cb4c297106f3f, type: 3}
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12015, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_MinSize: {x: 55, y: 36}
+  m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
-    m_Text: ProBuilder
-    m_Image: {fileID: 0}
+    m_Text: "\u6E38\u620F"
+    m_Image: {fileID: 4621777727084837110, guid: 0000000000000000d000000000000000,
+      type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 0
-    y: 73.6
-    width: 249
-    height: 439
+    x: 354.4
+    y: 80.8
+    width: 594
+    height: 301
   m_ViewDataDictionary: {fileID: 0}
+  m_SerializedViewNames: []
+  m_SerializedViewValues: []
+  m_SerializedCustomFieldsNames: []
+  m_SerializedCustomFieldsValues: []
+  m_PlayModeViewName: GameView
+  m_ShowGizmos: 0
+  m_TargetDisplay: 0
+  m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
+  m_TargetSize: {x: 498, y: 280}
+  m_TextureFilterMode: 0
+  m_TextureHideFlags: 61
+  m_RenderIMGUI: 1
+  m_MaximizeOnPlay: 0
+  m_UseMipMap: 0
+  m_VSyncEnabled: 0
+  m_Gizmos: 0
+  m_Stats: 0
+  m_SelectedSizes: 05000000000000000000000000000000000000000000000000000000000000000000000000000000
+  m_ZoomArea:
+    m_HRangeLocked: 0
+    m_VRangeLocked: 0
+    hZoomLockedByDefault: 0
+    vZoomLockedByDefault: 0
+    m_HBaseRangeMin: -199.2
+    m_HBaseRangeMax: 199.2
+    m_VBaseRangeMin: -112
+    m_VBaseRangeMax: 112
+    m_HAllowExceedBaseRangeMin: 1
+    m_HAllowExceedBaseRangeMax: 1
+    m_VAllowExceedBaseRangeMin: 1
+    m_VAllowExceedBaseRangeMax: 1
+    m_ScaleWithWindow: 0
+    m_HSlider: 0
+    m_VSlider: 0
+    m_IgnoreScrollWheelUntilClicked: 0
+    m_EnableMouseInput: 0
+    m_EnableSliderZoomHorizontal: 0
+    m_EnableSliderZoomVertical: 0
+    m_UniformScale: 1
+    m_UpDirection: 1
+    m_DrawArea:
+      serializedVersion: 2
+      x: 0
+      y: 21
+      width: 594
+      height: 280
+    m_Scale: {x: 3.1769733, y: 3.1769733}
+    m_Translation: {x: 268.21732, y: 33.811592}
+    m_MarginLeft: 0
+    m_MarginRight: 0
+    m_MarginTop: 0
+    m_MarginBottom: 0
+    m_LastShownAreaInsideMargins:
+      serializedVersion: 2
+      x: -84.42542
+      y: -10.642706
+      width: 186.97041
+      height: 88.1342
+    m_MinimalGUI: 1
+  m_defaultScale: 1
+  m_LastWindowPixelSize: {x: 742.5, y: 376.25}
+  m_ClearInEditMode: 1
+  m_NoCameraWarning: 1
+  m_LowResolutionForAspectRatios: 01000000000100000100
+  m_XRRenderMode: 0
+  m_RenderTexture: {fileID: 0}
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -64,14 +132,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Children:
   - {fileID: 4}
-  - {fileID: 11}
+  - {fileID: 10}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1259
-    height: 731
-  m_MinSize: {x: 258, y: 492}
+    width: 943
+    height: 717
+  m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
   controlID: -1
@@ -94,9 +162,9 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1259
-    height: 460
-  m_MinSize: {x: 258, y: 221}
+    width: 943
+    height: 322
+  m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
   controlID: -1
@@ -110,22 +178,21 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ProBuilderEditor
+  m_Name: SceneHierarchyWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 250
-    height: 460
-  m_MinSize: {x: 56, y: 57}
+    width: 347
+    height: 322
+  m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 2}
+  m_ActualView: {fileID: 6}
   m_Panes:
   - {fileID: 6}
-  - {fileID: 2}
-  m_Selected: 1
+  m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &6
 MonoBehaviour:
@@ -148,17 +215,17 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 0
-    y: 73.6
-    width: 249
-    height: 439
+    x: 7.2000003
+    y: 80.8
+    width: 346
+    height: 301
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 158}
-      m_SelectedIDs: bec2ffff
-      m_LastClickedID: -15682
-      m_ExpandedIDs: 38fbffffa83d0000e03e0000
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 36fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -192,24 +259,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: SceneView
+  m_Name: GameView
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 250
+    x: 347
     y: 0
-    width: 1009
-    height: 460
+    width: 596
+    height: 322
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 8}
+  m_ActualView: {fileID: 2}
   m_Panes:
   - {fileID: 8}
+  - {fileID: 2}
   - {fileID: 9}
-  - {fileID: 10}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -231,10 +298,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 250.40001
-    y: 73.6
-    width: 1007
-    height: 439
+    x: 354.4
+    y: 80.8
+    width: 594
+    height: 301
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
   m_WindowGUID: d69a67902db7f994ca099bec79d22ce1
@@ -246,9 +313,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -50.23302, y: -0.95981663, z: 44.87256}
+    m_Target: {x: 11.509767, y: 1.42323, z: 27.461628}
     speed: 2
-    m_Value: {x: -50.23302, y: -0.95981663, z: 44.87256}
+    m_Value: {x: 11.509767, y: 1.42323, z: 27.461628}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -294,20 +361,20 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.21535006, y: -0.5576867, z: 0.1526, w: 0.7869806}
+    m_Target: {x: 0.10736814, y: -0.14236517, z: 0.0155401, w: 0.9838719}
     speed: 2
-    m_Value: {x: 0.21534842, y: -0.55768245, z: 0.15259884, w: 0.7869746}
+    m_Value: {x: 0.10736594, y: -0.14236225, z: 0.015539781, w: 0.98385173}
   m_Size:
-    m_Target: 12.894823
+    m_Target: 8.330879
     speed: 2
-    m_Value: 13.502433
+    m_Value: 8.330879
   m_Ortho:
     m_Target: 0
     speed: 2
     m_Value: 0
   m_CameraSettings:
-    m_Speed: 1
-    m_SpeedNormalized: 0.5
+    m_Speed: 1.7
+    m_SpeedNormalized: 0.8299997
     m_SpeedMin: 0.01
     m_SpeedMax: 2
     m_EasingEnabled: 1
@@ -334,98 +401,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
-  m_Script: {fileID: 12015, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: "\u6E38\u620F"
-    m_Image: {fileID: 4621777727084837110, guid: 0000000000000000d000000000000000,
-      type: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 250.40001
-    y: 73.6
-    width: 1007
-    height: 439
-  m_ViewDataDictionary: {fileID: 0}
-  m_SerializedViewNames: []
-  m_SerializedViewValues: []
-  m_SerializedCustomFieldsNames: []
-  m_SerializedCustomFieldsValues: []
-  m_PlayModeViewName: GameView
-  m_ShowGizmos: 0
-  m_TargetDisplay: 0
-  m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 743, y: 418}
-  m_TextureFilterMode: 0
-  m_TextureHideFlags: 61
-  m_RenderIMGUI: 1
-  m_MaximizeOnPlay: 0
-  m_UseMipMap: 0
-  m_VSyncEnabled: 0
-  m_Gizmos: 0
-  m_Stats: 0
-  m_SelectedSizes: 05000000000000000000000000000000000000000000000000000000000000000000000000000000
-  m_ZoomArea:
-    m_HRangeLocked: 0
-    m_VRangeLocked: 0
-    hZoomLockedByDefault: 0
-    vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -297.2
-    m_HBaseRangeMax: 297.2
-    m_VBaseRangeMin: -167.2
-    m_VBaseRangeMax: 167.2
-    m_HAllowExceedBaseRangeMin: 1
-    m_HAllowExceedBaseRangeMax: 1
-    m_VAllowExceedBaseRangeMin: 1
-    m_VAllowExceedBaseRangeMax: 1
-    m_ScaleWithWindow: 0
-    m_HSlider: 0
-    m_VSlider: 0
-    m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 0
-    m_EnableSliderZoomHorizontal: 0
-    m_EnableSliderZoomVertical: 0
-    m_UniformScale: 1
-    m_UpDirection: 1
-    m_DrawArea:
-      serializedVersion: 2
-      x: 0
-      y: 21
-      width: 1007
-      height: 418
-    m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 503.5, y: 209}
-    m_MarginLeft: 0
-    m_MarginRight: 0
-    m_MarginTop: 0
-    m_MarginBottom: 0
-    m_LastShownAreaInsideMargins:
-      serializedVersion: 2
-      x: -503.5
-      y: -209
-      width: 1007
-      height: 418
-    m_MinimalGUI: 1
-  m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 1258.75, y: 548.75}
-  m_ClearInEditMode: 1
-  m_NoCameraWarning: 1
-  m_LowResolutionForAspectRatios: 01000000000100000100
-  m_XRRenderMode: 0
-  m_RenderTexture: {fileID: 0}
---- !u!114 &10
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
   m_Script: {fileID: 12111, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -443,7 +418,7 @@ MonoBehaviour:
     width: 726
     height: 310
   m_ViewDataDictionary: {fileID: 0}
---- !u!114 &11
+--- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -459,18 +434,18 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 460
-    width: 1259
-    height: 271
+    y: 322
+    width: 943
+    height: 395
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
-  m_ActualView: {fileID: 12}
+  m_ActualView: {fileID: 11}
   m_Panes:
+  - {fileID: 11}
   - {fileID: 12}
-  - {fileID: 13}
   m_Selected: 0
   m_LastSelected: 1
---- !u!114 &12
+--- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -491,13 +466,13 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 0
-    y: 533.60004
-    width: 1258
-    height: 250
+    x: 7.2000003
+    y: 402.4
+    width: 942
+    height: 374
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
-    m_NameFilter: modular
+    m_NameFilter: 
     m_ClassNames: []
     m_AssetLabels: []
     m_AssetBundleNames: []
@@ -509,20 +484,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Karting/Scenes
+    - Assets/Karting/Prefabs/KartClassic
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Karting/Scenes
+  - Assets/Karting/Prefabs/KartClassic
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\project\Karting\ThrillKarting
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 
-    m_LastClickedID: 0
-    m_ExpandedIDs: 000000006a4e00006c4e00006e4e000000ca9a3b
+    scrollPos: {x: 0, y: 420}
+    m_SelectedIDs: da510000
+    m_LastClickedID: 20954
+    m_ExpandedIDs: 0000000076510000785100007a5100007c5100007e51000080510000825100008451000086510000885100008a510000b451000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -538,7 +513,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 11}
+      m_ClientGUIView: {fileID: 10}
     m_SearchString: 
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
@@ -550,7 +525,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 92330000
     m_LastClickedID: 13202
-    m_ExpandedIDs: 000000006a4e00006c4e00006e4e0000
+    m_ExpandedIDs: 0000000076510000785100007a5100007c5100007e51000080510000825100008451000086510000885100008a510000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -575,10 +550,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: bec2ffff
-    m_LastClickedInstanceID: -15682
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 0
-    m_ExpandedInstanceIDs: c62300005e8e0000508e00003c440000
+    m_ExpandedInstanceIDs: c62300005e8e0000508e00003c44000054560000304900005a49000094550000b6620000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -594,7 +569,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 11}
+      m_ClientGUIView: {fileID: 10}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -602,11 +577,11 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 59}
+    m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 64
   m_SkipHiddenPackages: 0
-  m_DirectoriesAreaWidth: 110
---- !u!114 &13
+  m_DirectoriesAreaWidth: 393
+--- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -627,12 +602,12 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 0
-    y: 403.2
-    width: 958
-    height: 380
+    x: 7.2000003
+    y: 402.4
+    width: 942
+    height: 374
   m_ViewDataDictionary: {fileID: 0}
---- !u!114 &14
+--- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -647,18 +622,18 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1259
+    x: 943
     y: 0
     width: 277
-    height: 731
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 15}
+    height: 717
+  m_MinSize: {x: 277, y: 71}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 14}
   m_Panes:
-  - {fileID: 15}
+  - {fileID: 14}
   m_Selected: 0
   m_LastSelected: 0
---- !u!114 &15
+--- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -679,10 +654,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1259.2001
-    y: 73.6
-    width: 276
-    height: 710
+    x: 950.4
+    y: 80.8
+    width: 275
+    height: 696
   m_ViewDataDictionary: {fileID: 0}
   m_OpenAddComponentMenu: 0
   m_ObjectsLockedBeforeSerialization: []
@@ -696,3 +671,814 @@ MonoBehaviour:
   m_PreviewWindow: {fileID: 0}
   m_LastInspectedObjectInstanceID: -1
   m_LastVerticalScrollValue: 0
+--- !u!114 &15
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 1220
+    y: 0
+    width: 302
+    height: 717
+  m_MinSize: {x: 302, y: 401}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 16}
+  m_Panes:
+  - {fileID: 16}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &16
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba8f85f9d6bbb46d180610e6061865df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 300, y: 380}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Tutorials
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 1227.2001
+    y: 80.8
+    width: 300
+    height: 696
+  m_ViewDataDictionary: {fileID: 0}
+  m_AllParagraphs:
+  - paragraph:
+      m_Type: 6
+      m_Summary: 
+      m_Text: 
+      m_TutorialButtonText: 
+      m_Tutorial: {fileID: 0}
+      m_Icons:
+        m_Items: []
+      m_Image: {fileID: 2800000, guid: 59ee9782ecd754efa80a388d1782d503, type: 3}
+      m_Video: {fileID: 0}
+      m_CriteriaCompletion: 0
+      m_Criteria:
+        m_Items: []
+      m_MaskingSettings:
+        m_MaskingEnabled: 1
+        m_UnmaskedViews: []
+  - paragraph:
+      m_Type: 0
+      m_Summary: 
+      m_Text: "<b><size=16>Editor UI</size></b>\n\x03\x03\n<b><size=11><color=\"grey\">TUTORIAL
+        </color></size></b>\n\nIn this tutorial, you'll learn more about the <b>Unity
+        Editor</b>, which will be super helpful as you modify your game.\n\nClick
+        <b>Start</b> below to begin.\x03"
+      m_TutorialButtonText: 
+      m_Tutorial: {fileID: 0}
+      m_Icons:
+        m_Items: []
+      m_Image: {fileID: 0}
+      m_Video: {fileID: 0}
+      m_CriteriaCompletion: 0
+      m_Criteria:
+        m_Items: []
+      m_MaskingSettings:
+        m_MaskingEnabled: 1
+        m_UnmaskedViews: []
+  - paragraph:
+      m_Type: 6
+      m_Summary: 
+      m_Text: 
+      m_TutorialButtonText: 
+      m_Tutorial: {fileID: 0}
+      m_Icons:
+        m_Items: []
+      m_Image: {fileID: 2800000, guid: 711e1c4aefe4841b29c9a91f02d900b3, type: 3}
+      m_Video: {fileID: 0}
+      m_CriteriaCompletion: 0
+      m_Criteria:
+        m_Items: []
+      m_MaskingSettings:
+        m_MaskingEnabled: 1
+        m_UnmaskedViews:
+        - m_SelectorType: 1
+          m_ViewType:
+            m_TypeName: 
+          m_EditorWindowType:
+            m_TypeName: UnityEditor.SceneView, UnityEditor, Version=0.0.0.0, Culture=neutral,
+              PublicKeyToken=null
+          m_AlternateEditorWindowTypes:
+            m_Items: []
+          m_MaskType: 1
+          m_MaskSizeModifier: 0
+          m_UnmaskedControls: []
+        - m_SelectorType: 1
+          m_ViewType:
+            m_TypeName: 
+          m_EditorWindowType:
+            m_TypeName: UnityEditor.SceneHierarchyWindow, UnityEditor, Version=0.0.0.0,
+              Culture=neutral, PublicKeyToken=null
+          m_AlternateEditorWindowTypes:
+            m_Items: []
+          m_MaskType: 1
+          m_MaskSizeModifier: 0
+          m_UnmaskedControls: []
+  - paragraph:
+      m_Type: 0
+      m_Summary: 
+      m_Text: '<b><size=14>Hierarchy and Scene</size></b>
+
+
+        The <b>Scene
+        view</b> allows you to navigate and edit your scene.
+
+
+        The <b>Hierarchy
+        window</b> contains a list of everything in the current scene that is open
+        in the editor.
+
+
+        Click <b>Next</b> to continue.'
+      m_TutorialButtonText: 
+      m_Tutorial: {fileID: 0}
+      m_Icons:
+        m_Items: []
+      m_Image: {fileID: 0}
+      m_Video: {fileID: 0}
+      m_CriteriaCompletion: 0
+      m_Criteria:
+        m_Items: []
+      m_MaskingSettings:
+        m_MaskingEnabled: 1
+        m_UnmaskedViews:
+        - m_SelectorType: 1
+          m_ViewType:
+            m_TypeName: 
+          m_EditorWindowType:
+            m_TypeName: UnityEditor.SceneView, UnityEditor, Version=0.0.0.0, Culture=neutral,
+              PublicKeyToken=null
+          m_AlternateEditorWindowTypes:
+            m_Items: []
+          m_MaskType: 1
+          m_MaskSizeModifier: 0
+          m_UnmaskedControls: []
+        - m_SelectorType: 1
+          m_ViewType:
+            m_TypeName: 
+          m_EditorWindowType:
+            m_TypeName: UnityEditor.SceneHierarchyWindow, UnityEditor, Version=0.0.0.0,
+              Culture=neutral, PublicKeyToken=null
+          m_AlternateEditorWindowTypes:
+            m_Items: []
+          m_MaskType: 1
+          m_MaskSizeModifier: 0
+          m_UnmaskedControls: []
+  - paragraph:
+      m_Type: 7
+      m_Summary: 
+      m_Text: 
+      m_TutorialButtonText: 
+      m_Tutorial: {fileID: 0}
+      m_Icons:
+        m_Items: []
+      m_Image: {fileID: 2800000, guid: 7dbd9a3dc7b4c4e1985f9ca6cfa1d4f7, type: 3}
+      m_Video: {fileID: 32900000, guid: 681d4800f4c8b48baa973ff866a465a2, type: 3}
+      m_CriteriaCompletion: 0
+      m_Criteria:
+        m_Items: []
+      m_MaskingSettings:
+        m_MaskingEnabled: 1
+        m_UnmaskedViews:
+        - m_SelectorType: 1
+          m_ViewType:
+            m_TypeName: 
+          m_EditorWindowType:
+            m_TypeName: UnityEditor.SceneView, UnityEditor, Version=0.0.0.0, Culture=neutral,
+              PublicKeyToken=null
+          m_AlternateEditorWindowTypes:
+            m_Items: []
+          m_MaskType: 0
+          m_MaskSizeModifier: 0
+          m_UnmaskedControls: []
+        - m_SelectorType: 0
+          m_ViewType:
+            m_TypeName: UnityEditor.Toolbar, UnityEditor, Version=0.0.0.0, Culture=neutral,
+              PublicKeyToken=null
+          m_EditorWindowType:
+            m_TypeName: 
+          m_AlternateEditorWindowTypes:
+            m_Items: []
+          m_MaskType: 0
+          m_MaskSizeModifier: 0
+          m_UnmaskedControls:
+          - m_SelectorMode: 1
+            m_GUIContent:
+              m_Text: 
+              m_Image: {fileID: 0}
+              m_Tooltip: 
+            m_ControlName: ToolbarPersistentToolsPan
+            m_PropertyPath: 
+            m_TargetType:
+              m_TypeName: 
+            m_GUIStyleName: 
+  - paragraph:
+      m_Type: 0
+      m_Summary: 
+      m_Text: "<b><size=14>Hand Tool</size></b>\n\nLet\u2019s try the <b>Hand Tool</b>,
+        which allows you to navigate your view of the scene."
+      m_TutorialButtonText: 
+      m_Tutorial: {fileID: 0}
+      m_Icons:
+        m_Items: []
+      m_Image: {fileID: 0}
+      m_Video: {fileID: 0}
+      m_CriteriaCompletion: 0
+      m_Criteria:
+        m_Items: []
+      m_MaskingSettings:
+        m_MaskingEnabled: 0
+        m_UnmaskedViews: []
+  - paragraph:
+      m_Type: 1
+      m_Summary: Select Hand Tool
+      m_Text: Click the Hand Tool in the upper left corner of the <b>Toolbar</b>
+        at the top of the editor.
+      m_TutorialButtonText: 
+      m_Tutorial: {fileID: 0}
+      m_Icons:
+        m_Items: []
+      m_Image: {fileID: 0}
+      m_Video: {fileID: 0}
+      m_CriteriaCompletion: 0
+      m_Criteria:
+        m_Items:
+        - type:
+            m_TypeName: Unity.InteractiveTutorials.ActiveToolCriterion, Unity.InteractiveTutorials.Core,
+              Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+          criterion: {fileID: 114140302119297188, guid: be18c412097e64f4d879aad1e2f17764,
+            type: 2}
+      m_MaskingSettings:
+        m_MaskingEnabled: 1
+        m_UnmaskedViews:
+        - m_SelectorType: 1
+          m_ViewType:
+            m_TypeName: 
+          m_EditorWindowType:
+            m_TypeName: UnityEditor.SceneView, UnityEditor, Version=0.0.0.0, Culture=neutral,
+              PublicKeyToken=null
+          m_AlternateEditorWindowTypes:
+            m_Items: []
+          m_MaskType: 0
+          m_MaskSizeModifier: 0
+          m_UnmaskedControls: []
+        - m_SelectorType: 0
+          m_ViewType:
+            m_TypeName: UnityEditor.Toolbar, UnityEditor, Version=0.0.0.0, Culture=neutral,
+              PublicKeyToken=null
+          m_EditorWindowType:
+            m_TypeName: 
+          m_AlternateEditorWindowTypes:
+            m_Items: []
+          m_MaskType: 0
+          m_MaskSizeModifier: 0
+          m_UnmaskedControls:
+          - m_SelectorMode: 1
+            m_GUIContent:
+              m_Text: 
+              m_Image: {fileID: 0}
+              m_Tooltip: 
+            m_ControlName: ToolbarPersistentToolsPan
+            m_PropertyPath: 
+            m_TargetType:
+              m_TypeName: 
+            m_GUIStyleName: 
+  - paragraph:
+      m_Type: 7
+      m_Summary: 
+      m_Text: 
+      m_TutorialButtonText: 
+      m_Tutorial: {fileID: 0}
+      m_Icons:
+        m_Items: []
+      m_Image: {fileID: 0}
+      m_Video: {fileID: 32900000, guid: 92a75e2aa8c21497994933d0354846e6, type: 3}
+      m_CriteriaCompletion: 0
+      m_Criteria:
+        m_Items: []
+      m_MaskingSettings:
+        m_MaskingEnabled: 1
+        m_UnmaskedViews:
+        - m_SelectorType: 1
+          m_ViewType:
+            m_TypeName: 
+          m_EditorWindowType:
+            m_TypeName: UnityEditor.SceneView, UnityEditor, Version=0.0.0.0, Culture=neutral,
+              PublicKeyToken=null
+          m_AlternateEditorWindowTypes:
+            m_Items: []
+          m_MaskType: 0
+          m_MaskSizeModifier: 0
+          m_UnmaskedControls: []
+        - m_SelectorType: 0
+          m_ViewType:
+            m_TypeName: UnityEditor.Toolbar, UnityEditor, Version=0.0.0.0, Culture=neutral,
+              PublicKeyToken=null
+          m_EditorWindowType:
+            m_TypeName: 
+          m_AlternateEditorWindowTypes:
+            m_Items: []
+          m_MaskType: 0
+          m_MaskSizeModifier: 0
+          m_UnmaskedControls:
+          - m_SelectorMode: 1
+            m_GUIContent:
+              m_Text: 
+              m_Image: {fileID: 0}
+              m_Tooltip: 
+            m_ControlName: ToolbarPersistentToolsPan
+            m_PropertyPath: 
+            m_TargetType:
+              m_TypeName: 
+            m_GUIStyleName: 
+  - paragraph:
+      m_Type: 0
+      m_Summary: 
+      m_Text: '<b><size=14>Pan Scene with Hand Tool</size></b>
+
+
+        Now that
+        you have selected the <b>Hand tool</b>, place your cursor in the <b>Scene
+        view</b> and try the following steps to move your view of the scene in several
+        ways:'
+      m_TutorialButtonText: 
+      m_Tutorial: {fileID: 0}
+      m_Icons:
+        m_Items: []
+      m_Image: {fileID: 0}
+      m_Video: {fileID: 0}
+      m_CriteriaCompletion: 0
+      m_Criteria:
+        m_Items: []
+      m_MaskingSettings:
+        m_MaskingEnabled: 0
+        m_UnmaskedViews: []
+  - paragraph:
+      m_Type: 1
+      m_Summary: Pan around the scene
+      m_Text: Hold down the left mouse button and move the mouse to pan.
+      m_TutorialButtonText: 
+      m_Tutorial: {fileID: 0}
+      m_Icons:
+        m_Items: []
+      m_Image: {fileID: 0}
+      m_Video: {fileID: 0}
+      m_CriteriaCompletion: 0
+      m_Criteria:
+        m_Items:
+        - type:
+            m_TypeName: Unity.InteractiveTutorials.SceneViewCameraMovedCriterion,
+              Unity.InteractiveTutorials.Core, Version=0.0.0.0, Culture=neutral,
+              PublicKeyToken=null
+          criterion: {fileID: 114669061955605264, guid: d976f93f028d14baa92454948e884504,
+            type: 2}
+      m_MaskingSettings:
+        m_MaskingEnabled: 1
+        m_UnmaskedViews:
+        - m_SelectorType: 1
+          m_ViewType:
+            m_TypeName: 
+          m_EditorWindowType:
+            m_TypeName: UnityEditor.SceneView, UnityEditor, Version=0.0.0.0, Culture=neutral,
+              PublicKeyToken=null
+          m_AlternateEditorWindowTypes:
+            m_Items: []
+          m_MaskType: 0
+          m_MaskSizeModifier: 0
+          m_UnmaskedControls: []
+        - m_SelectorType: 0
+          m_ViewType:
+            m_TypeName: UnityEditor.Toolbar, UnityEditor, Version=0.0.0.0, Culture=neutral,
+              PublicKeyToken=null
+          m_EditorWindowType:
+            m_TypeName: 
+          m_AlternateEditorWindowTypes:
+            m_Items: []
+          m_MaskType: 0
+          m_MaskSizeModifier: 0
+          m_UnmaskedControls:
+          - m_SelectorMode: 1
+            m_GUIContent:
+              m_Text: 
+              m_Image: {fileID: 0}
+              m_Tooltip: 
+            m_ControlName: ToolbarPersistentToolsPan
+            m_PropertyPath: 
+            m_TargetType:
+              m_TypeName: 
+            m_GUIStyleName: 
+  - paragraph:
+      m_Type: 7
+      m_Summary: 
+      m_Text: 
+      m_TutorialButtonText: 
+      m_Tutorial: {fileID: 0}
+      m_Icons:
+        m_Items: []
+      m_Image: {fileID: 0}
+      m_Video: {fileID: 32900000, guid: 9c70b0ce0d23a43afa790c182aeb552f, type: 3}
+      m_CriteriaCompletion: 0
+      m_Criteria:
+        m_Items: []
+      m_MaskingSettings:
+        m_MaskingEnabled: 1
+        m_UnmaskedViews:
+        - m_SelectorType: 1
+          m_ViewType:
+            m_TypeName: 
+          m_EditorWindowType:
+            m_TypeName: UnityEditor.SceneView, UnityEditor, Version=0.0.0.0, Culture=neutral,
+              PublicKeyToken=null
+          m_AlternateEditorWindowTypes:
+            m_Items: []
+          m_MaskType: 0
+          m_MaskSizeModifier: 0
+          m_UnmaskedControls: []
+        - m_SelectorType: 0
+          m_ViewType:
+            m_TypeName: UnityEditor.Toolbar, UnityEditor, Version=0.0.0.0, Culture=neutral,
+              PublicKeyToken=null
+          m_EditorWindowType:
+            m_TypeName: 
+          m_AlternateEditorWindowTypes:
+            m_Items: []
+          m_MaskType: 0
+          m_MaskSizeModifier: 0
+          m_UnmaskedControls:
+          - m_SelectorMode: 1
+            m_GUIContent:
+              m_Text: 
+              m_Image: {fileID: 0}
+              m_Tooltip: 
+            m_ControlName: ToolbarPersistentToolsPan
+            m_PropertyPath: 
+            m_TargetType:
+              m_TypeName: 
+            m_GUIStyleName: 
+  - paragraph:
+      m_Type: 0
+      m_Summary: 
+      m_Text: '<b><size=14>Orbit Scene with Hand Tool</size></b>
+
+
+        Now let''s
+        look around within the Scene view.'
+      m_TutorialButtonText: 
+      m_Tutorial: {fileID: 0}
+      m_Icons:
+        m_Items: []
+      m_Image: {fileID: 0}
+      m_Video: {fileID: 0}
+      m_CriteriaCompletion: 0
+      m_Criteria:
+        m_Items: []
+      m_MaskingSettings:
+        m_MaskingEnabled: 0
+        m_UnmaskedViews: []
+  - paragraph:
+      m_Type: 1
+      m_Summary: Orbit in the scene
+      m_Text: Hold down the <b>Alt or Option</b> key and the left mouse button, and
+        move the mouse to orbit your view of the scene.
+      m_TutorialButtonText: 
+      m_Tutorial: {fileID: 0}
+      m_Icons:
+        m_Items: []
+      m_Image: {fileID: 0}
+      m_Video: {fileID: 0}
+      m_CriteriaCompletion: 0
+      m_Criteria:
+        m_Items:
+        - type:
+            m_TypeName: Unity.InteractiveTutorials.SceneViewCameraMovedCriterion,
+              Unity.InteractiveTutorials.Core, Version=0.0.0.0, Culture=neutral,
+              PublicKeyToken=null
+          criterion: {fileID: 114562644421750226, guid: b557a83bcc83a4b8f8f192ee86aedc5e,
+            type: 2}
+      m_MaskingSettings:
+        m_MaskingEnabled: 1
+        m_UnmaskedViews:
+        - m_SelectorType: 1
+          m_ViewType:
+            m_TypeName: 
+          m_EditorWindowType:
+            m_TypeName: UnityEditor.SceneView, UnityEditor, Version=0.0.0.0, Culture=neutral,
+              PublicKeyToken=null
+          m_AlternateEditorWindowTypes:
+            m_Items: []
+          m_MaskType: 0
+          m_MaskSizeModifier: 0
+          m_UnmaskedControls: []
+        - m_SelectorType: 0
+          m_ViewType:
+            m_TypeName: UnityEditor.Toolbar, UnityEditor, Version=0.0.0.0, Culture=neutral,
+              PublicKeyToken=null
+          m_EditorWindowType:
+            m_TypeName: 
+          m_AlternateEditorWindowTypes:
+            m_Items: []
+          m_MaskType: 0
+          m_MaskSizeModifier: 0
+          m_UnmaskedControls:
+          - m_SelectorMode: 1
+            m_GUIContent:
+              m_Text: 
+              m_Image: {fileID: 0}
+              m_Tooltip: 
+            m_ControlName: ToolbarPersistentToolsPan
+            m_PropertyPath: 
+            m_TargetType:
+              m_TypeName: 
+            m_GUIStyleName: 
+  - paragraph:
+      m_Type: 6
+      m_Summary: 
+      m_Text: 
+      m_TutorialButtonText: 
+      m_Tutorial: {fileID: 0}
+      m_Icons:
+        m_Items: []
+      m_Image: {fileID: 2800000, guid: 399c37fc1d3564274bb0b5fe83487ed2, type: 3}
+      m_Video: {fileID: 0}
+      m_CriteriaCompletion: 0
+      m_Criteria:
+        m_Items: []
+      m_MaskingSettings:
+        m_MaskingEnabled: 1
+        m_UnmaskedViews:
+        - m_SelectorType: 1
+          m_ViewType:
+            m_TypeName: 
+          m_EditorWindowType:
+            m_TypeName: UnityEditor.SceneView, UnityEditor, Version=0.0.0.0, Culture=neutral,
+              PublicKeyToken=null
+          m_AlternateEditorWindowTypes:
+            m_Items: []
+          m_MaskType: 0
+          m_MaskSizeModifier: 0
+          m_UnmaskedControls: []
+        - m_SelectorType: 0
+          m_ViewType:
+            m_TypeName: UnityEditor.Toolbar, UnityEditor, Version=0.0.0.0, Culture=neutral,
+              PublicKeyToken=null
+          m_EditorWindowType:
+            m_TypeName: 
+          m_AlternateEditorWindowTypes:
+            m_Items: []
+          m_MaskType: 0
+          m_MaskSizeModifier: 0
+          m_UnmaskedControls:
+          - m_SelectorMode: 1
+            m_GUIContent:
+              m_Text: 
+              m_Image: {fileID: 0}
+              m_Tooltip: 
+            m_ControlName: ToolbarPersistentToolsPan
+            m_PropertyPath: 
+            m_TargetType:
+              m_TypeName: 
+            m_GUIStyleName: 
+  - paragraph:
+      m_Type: 0
+      m_Summary: 
+      m_Text: '<b><size=14>Zoom Scene</size></b>
+
+
+        Let''s try to zoom the
+        Scene view:'
+      m_TutorialButtonText: 
+      m_Tutorial: {fileID: 0}
+      m_Icons:
+        m_Items: []
+      m_Image: {fileID: 0}
+      m_Video: {fileID: 0}
+      m_CriteriaCompletion: 0
+      m_Criteria:
+        m_Items: []
+      m_MaskingSettings:
+        m_MaskingEnabled: 1
+        m_UnmaskedViews:
+        - m_SelectorType: 1
+          m_ViewType:
+            m_TypeName: 
+          m_EditorWindowType:
+            m_TypeName: UnityEditor.SceneView, UnityEditor, Version=0.0.0.0, Culture=neutral,
+              PublicKeyToken=null
+          m_AlternateEditorWindowTypes:
+            m_Items: []
+          m_MaskType: 0
+          m_MaskSizeModifier: 0
+          m_UnmaskedControls: []
+        - m_SelectorType: 0
+          m_ViewType:
+            m_TypeName: UnityEditor.Toolbar, UnityEditor, Version=0.0.0.0, Culture=neutral,
+              PublicKeyToken=null
+          m_EditorWindowType:
+            m_TypeName: 
+          m_AlternateEditorWindowTypes:
+            m_Items: []
+          m_MaskType: 0
+          m_MaskSizeModifier: 0
+          m_UnmaskedControls:
+          - m_SelectorMode: 1
+            m_GUIContent:
+              m_Text: 
+              m_Image: {fileID: 0}
+              m_Tooltip: 
+            m_ControlName: ToolbarPersistentToolsPan
+            m_PropertyPath: 
+            m_TargetType:
+              m_TypeName: 
+            m_GUIStyleName: 
+  - paragraph:
+      m_Type: 1
+      m_Summary: Zoom in and out in the scene
+      m_Text: "Hold down the <b>Alt or Option</b> key and the <b>right mouse</b>
+        button, and move the mouse to zoom in and out. \n\nAlternatively, use the
+        mouse scroll wheel or the scroll gesture on a trackpad."
+      m_TutorialButtonText: 
+      m_Tutorial: {fileID: 0}
+      m_Icons:
+        m_Items: []
+      m_Image: {fileID: 0}
+      m_Video: {fileID: 0}
+      m_CriteriaCompletion: 0
+      m_Criteria:
+        m_Items:
+        - type:
+            m_TypeName: Unity.InteractiveTutorials.SceneViewCameraMovedCriterion,
+              Unity.InteractiveTutorials.Core, Version=0.0.0.0, Culture=neutral,
+              PublicKeyToken=null
+          criterion: {fileID: 114054893517278618, guid: ecbde9254a26a49978e5df0fdf89ec73,
+            type: 2}
+      m_MaskingSettings:
+        m_MaskingEnabled: 1
+        m_UnmaskedViews:
+        - m_SelectorType: 1
+          m_ViewType:
+            m_TypeName: 
+          m_EditorWindowType:
+            m_TypeName: UnityEditor.SceneView, UnityEditor, Version=0.0.0.0, Culture=neutral,
+              PublicKeyToken=null
+          m_AlternateEditorWindowTypes:
+            m_Items: []
+          m_MaskType: 0
+          m_MaskSizeModifier: 0
+          m_UnmaskedControls: []
+        - m_SelectorType: 0
+          m_ViewType:
+            m_TypeName: UnityEditor.Toolbar, UnityEditor, Version=0.0.0.0, Culture=neutral,
+              PublicKeyToken=null
+          m_EditorWindowType:
+            m_TypeName: 
+          m_AlternateEditorWindowTypes:
+            m_Items: []
+          m_MaskType: 0
+          m_MaskSizeModifier: 0
+          m_UnmaskedControls:
+          - m_SelectorMode: 1
+            m_GUIContent:
+              m_Text: 
+              m_Image: {fileID: 0}
+              m_Tooltip: 
+            m_ControlName: ToolbarPersistentToolsPan
+            m_PropertyPath: 
+            m_TargetType:
+              m_TypeName: 
+            m_GUIStyleName: 
+  - paragraph:
+      m_Type: 6
+      m_Summary: 
+      m_Text: 
+      m_TutorialButtonText: 
+      m_Tutorial: {fileID: 0}
+      m_Icons:
+        m_Items: []
+      m_Image: {fileID: 2800000, guid: 9c7a198f4dc69414789fc860c1ab170e, type: 3}
+      m_Video: {fileID: 0}
+      m_CriteriaCompletion: 0
+      m_Criteria:
+        m_Items: []
+      m_MaskingSettings:
+        m_MaskingEnabled: 1
+        m_UnmaskedViews:
+        - m_SelectorType: 1
+          m_ViewType:
+            m_TypeName: 
+          m_EditorWindowType:
+            m_TypeName: UnityEditor.ProjectBrowser, UnityEditor, Version=0.0.0.0,
+              Culture=neutral, PublicKeyToken=null
+          m_AlternateEditorWindowTypes:
+            m_Items: []
+          m_MaskType: 1
+          m_MaskSizeModifier: 0
+          m_UnmaskedControls: []
+  - paragraph:
+      m_Type: 0
+      m_Summary: 
+      m_Text: "<b><size=14>Project Window</size></b>\n\nNext, we have the <b>Project
+        window</b>, which displays all of the <b>assets</b> that are available to
+        use in your project. \n\nAssets are the files that make up your project,
+        for example, <b>3D models</b>, <b>textures</b>, <b>audio files</b> and more.
+        \n\nWhen you import assets into your project, they appear in the Project
+        window.\n\nClick <b>Next</b> to continue."
+      m_TutorialButtonText: 
+      m_Tutorial: {fileID: 0}
+      m_Icons:
+        m_Items: []
+      m_Image: {fileID: 0}
+      m_Video: {fileID: 0}
+      m_CriteriaCompletion: 0
+      m_Criteria:
+        m_Items: []
+      m_MaskingSettings:
+        m_MaskingEnabled: 1
+        m_UnmaskedViews:
+        - m_SelectorType: 1
+          m_ViewType:
+            m_TypeName: 
+          m_EditorWindowType:
+            m_TypeName: UnityEditor.ProjectBrowser, UnityEditor, Version=0.0.0.0,
+              Culture=neutral, PublicKeyToken=null
+          m_AlternateEditorWindowTypes:
+            m_Items: []
+          m_MaskType: 1
+          m_MaskSizeModifier: 0
+          m_UnmaskedControls: []
+  - paragraph:
+      m_Type: 6
+      m_Summary: 
+      m_Text: 
+      m_TutorialButtonText: 'Tutorial 3: Edit Colors'
+      m_Tutorial: {fileID: 11400000, guid: 83255933b1f9a13428ca582620d979c8, type: 2}
+      m_Icons:
+        m_Items: []
+      m_Image: {fileID: 2800000, guid: cf2b88c8b41ea4e42ba6e17726c32b87, type: 3}
+      m_Video: {fileID: 0}
+      m_CriteriaCompletion: 0
+      m_Criteria:
+        m_Items: []
+      m_MaskingSettings:
+        m_MaskingEnabled: 1
+        m_UnmaskedViews: []
+  - paragraph:
+      m_Type: 0
+      m_Summary: 
+      m_Text: "<b><size=14>Tutorial Completed</size></b>\n\nNow that you've learned
+        more about the Editor, let's get you back to modifying your game. \n\nNext
+        up: Changing the color of your Kart."
+      m_TutorialButtonText: 
+      m_Tutorial: {fileID: 0}
+      m_Icons:
+        m_Items: []
+      m_Image: {fileID: 0}
+      m_Video: {fileID: 0}
+      m_CriteriaCompletion: 0
+      m_Criteria:
+        m_Items: []
+      m_MaskingSettings:
+        m_MaskingEnabled: 1
+        m_UnmaskedViews: []
+  - paragraph:
+      m_Type: 2
+      m_Summary: 
+      m_Text: 
+      m_TutorialButtonText: 'Tutorial: Edit Colors'
+      m_Tutorial: {fileID: 11400000, guid: 83255933b1f9a13428ca582620d979c8, type: 2}
+      m_Icons:
+        m_Items: []
+      m_Image: {fileID: 0}
+      m_Video: {fileID: 0}
+      m_CriteriaCompletion: 0
+      m_Criteria:
+        m_Items: []
+      m_MaskingSettings:
+        m_MaskingEnabled: 1
+        m_UnmaskedViews: []
+  m_Readme: {fileID: 11400000, guid: 08f5116c6f71aa548a00fbd1f56fa92e, type: 2}
+  m_MaskingEnabled: 1
+  m_ScrollPosition: {x: 0, y: 59}
+  m_FarthestPageCompleted: -1
+  m_PlayModeChanging: 0
