@@ -365,9 +365,6 @@
     <Reference Include="System.Interactive.Async">
       <HintPath>D:/project/Karting/ThrillKarting/Assets/Karting/ML_Agents/Plugins/ProtoBuffer/System.Interactive.Async.dll</HintPath>
     </Reference>
-    <Reference Include="KGFUtils.Settings">
-      <HintPath>D:/project/Karting/ThrillKarting/Assets/kolmich/KGFCore/KGFUtility/KGFUtils.Settings.dll</HintPath>
-    </Reference>
     <Reference Include="Google.Protobuf">
       <HintPath>D:/project/Karting/ThrillKarting/Library/PackageCache/com.unity.barracuda@0.5.0-preview/Barracuda/Plugins/ProtoBuffer/Google.Protobuf.dll</HintPath>
     </Reference>

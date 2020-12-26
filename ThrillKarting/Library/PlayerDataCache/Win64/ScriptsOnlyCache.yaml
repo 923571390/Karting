@@ -102,6 +102,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.GridLayoutGroup
     - UnityEngine.UI.HorizontalLayoutGroup
     - UnityEngine.UI.Image
+    - UnityEngine.UI.Mask
     - UnityEngine.UI.Outline
     - UnityEngine.UI.RawImage
     - UnityEngine.UI.Shadow
@@ -392,8 +393,6 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 786}
-    - Class: 114
       Script: {instanceID: 11368}
     - Class: 114
       Script: {instanceID: 11370}
@@ -551,6 +550,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 83
       Script: {instanceID: 0}
+    - Class: 84
+      Script: {instanceID: 0}
     - Class: 90
       Script: {instanceID: 0}
     - Class: 91
@@ -603,6 +604,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 12362}
     - Class: 114
       Script: {instanceID: 12462}
+    - Class: 114
+      Script: {instanceID: 12510}
     - Class: 114
       Script: {instanceID: 12566}
     - Class: 114
@@ -897,12 +900,6 @@ ScriptsOnlyBuild:
     className: EmitParticlesOnBallBounce
   - hash:
       serializedVersion: 2
-      Hash: 768eff8aae6bda5c6bc15049307f352c
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: KGFString
-  - hash:
-      serializedVersion: 2
       Hash: 0e2dcecfc1a59863d6161482eaa244b3
     assemblyName: Assembly-CSharp.dll
     namespaceName: EpicToonFX
@@ -969,12 +966,6 @@ ScriptsOnlyBuild:
     className: SelectionRoot
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: KGFObject
-  - hash:
-      serializedVersion: 2
       Hash: aeb62f729c52c814dec86c47dcac1471
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -985,12 +976,6 @@ ScriptsOnlyBuild:
     assemblyName: MLAgentsToolKit.dll
     namespaceName: MLAgents
     className: Monitor
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: KGFGUIRenderer
   - hash:
       serializedVersion: 2
       Hash: 499fd23433e68e265d153aa6b95d0047
@@ -1057,12 +1042,6 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: EmitParticlesOnLand
-  - hash:
-      serializedVersion: 2
-      Hash: 7c51d3a40de96eee91bd8de6cf4b7ce9
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: KGFEventSequence
   - hash:
       serializedVersion: 2
       Hash: 6dd3dc11942e98c0a809c81f95fc960c
@@ -1293,12 +1272,6 @@ ScriptsOnlyBuild:
     className: ObjectiveHUDManger
   - hash:
       serializedVersion: 2
-      Hash: 2be4cbcd1a2a46aab219f4f7724a9132
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: KGFPhotoCapture
-  - hash:
-      serializedVersion: 2
       Hash: 7e6ed836cbaa230e56d6a2bbae1b9bb5
     assemblyName: Unity.Postprocessing.Runtime.dll
     namespaceName: UnityEngine.Rendering.PostProcessing
@@ -1327,12 +1300,6 @@ ScriptsOnlyBuild:
     assemblyName: KartGame.dll
     namespaceName: 
     className: PrefabReplacer
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: charactercontroller
   - hash:
       serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
@@ -1369,12 +1336,6 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Selectable
-  - hash:
-      serializedVersion: 2
-      Hash: 87ad5c7a47e614f7114b33d996727037
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: KGFEvent
   - hash:
       serializedVersion: 2
       Hash: 380d3ba99e2d836ad5d66bded133d128
@@ -1467,12 +1428,6 @@ ScriptsOnlyBuild:
     className: DisplayMessageManager
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: KGFCustomGUITutorial
-  - hash:
-      serializedVersion: 2
       Hash: e9389e944eb81a3a9df56fcdb09ce6a9
     assemblyName: Unity.ProBuilder.dll
     namespaceName: UnityEngine.ProBuilder
@@ -1507,12 +1462,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.InteractiveTutorials.Core.Scripts.dll
     namespaceName: 
     className: SceneObjectGUIDComponent
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: KGFMapSystemScriptControlDemo
   - hash:
       serializedVersion: 2
       Hash: 2c75ba5bd0a08be27022ff1af546484e
@@ -1581,12 +1530,6 @@ ScriptsOnlyBuild:
     className: RemoteTestResultSender
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: charactercontroller_sidescroller
-  - hash:
-      serializedVersion: 2
       Hash: 694d20920c0e41f567e119f7159a3644
     assemblyName: Cinemachine.dll
     namespaceName: Cinemachine
@@ -1639,12 +1582,6 @@ ScriptsOnlyBuild:
     assemblyName: Barracuda.dll
     namespaceName: Barracuda
     className: NNModelData
-  - hash:
-      serializedVersion: 2
-      Hash: 354be0085d8d356fb60314919b403a43
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: KGFMapIcon
   - hash:
       serializedVersion: 2
       Hash: 2c1b9638c9bb84280fb840485091d35b
@@ -1821,12 +1758,6 @@ ScriptsOnlyBuild:
     className: BuildSettings
   - hash:
       serializedVersion: 2
-      Hash: 28cb1797a181ddb282a08de251fd5b7c
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: KGFMapSystemStyleDemo
-  - hash:
-      serializedVersion: 2
       Hash: c1933cc0a2f4ff6eb13333347497beb3
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -1909,12 +1840,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: AudioTrack
-  - hash:
-      serializedVersion: 2
-      Hash: b6819a94312adc3ada8838ba09815cb1
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: KGFScreen
   - hash:
       serializedVersion: 2
       Hash: ae83e830e7a90c0aff918c4c2e520825
@@ -2013,12 +1938,6 @@ ScriptsOnlyBuild:
     className: MarkerTrack
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: KGFGUIUtilityTutorial
-  - hash:
-      serializedVersion: 2
       Hash: d791aa6007fa3640be1164ea75bb087d
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -2041,12 +1960,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Postprocessing.Runtime.dll
     namespaceName: UnityEngine.Rendering.PostProcessing
     className: PostProcessVolume
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: KGFDocumentation
   - hash:
       serializedVersion: 2
       Hash: d0987ce3e9092dbe0fa30d73f333fffa
@@ -2077,12 +1990,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Postprocessing.Runtime.dll
     namespaceName: UnityEngine.Rendering.PostProcessing
     className: AmbientOcclusion
-  - hash:
-      serializedVersion: 2
-      Hash: 0abf982a7319238c288c6d7b79fecb4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: KGFCustomGUI
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -2149,18 +2056,6 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: StandaloneInputModule
-  - hash:
-      serializedVersion: 2
-      Hash: 2ca9d7623dde3439612f47bc7a32d4f9
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: KGFFPSDisplay
-  - hash:
-      serializedVersion: 2
-      Hash: aecf2a70b7280ffd9e7f2bd4f8344fee
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: KGFMapSystem
   - hash:
       serializedVersion: 2
       Hash: b5c3dbcb94925c8b595ad16a62b44788

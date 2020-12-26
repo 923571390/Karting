@@ -74,53 +74,9 @@
     <Compile Include="Assets\Mod Assets\ModResources\Scripts\Platformer\EmitParticlesOnLand.cs" />
     <Compile Include="Assets\Racing\Standard Assets\Water (Basic)\Sources\Scripts\WaterSimple.cs" />
     <Compile Include="Assets\Racing\TerrainToolkit\TerrainToolkit.cs" />
-    <Compile Include="Assets\kolmich\KGFCore\KGFAccessor\scripts\KGFAccessor.cs" />
-    <Compile Include="Assets\kolmich\KGFCore\KGFCustomGUI\scripts\KGFCustomGUI.cs" />
-    <Compile Include="Assets\kolmich\KGFCore\KGFCustomGUI\scripts\KGFCustomGUITutorial.cs" />
-    <Compile Include="Assets\kolmich\KGFCore\KGFCustomGUI\scripts\interfaces\KGFICustomGUI.cs" />
-    <Compile Include="Assets\kolmich\KGFCore\KGFCustomGUI\scripts\interfaces\KGFICustomInspectorGUI.cs" />
-    <Compile Include="Assets\kolmich\KGFCore\KGFEvent\scripts\KGFEvent.cs" />
-    <Compile Include="Assets\kolmich\KGFCore\KGFEvent\scripts\KGFEventBase.cs" />
-    <Compile Include="Assets\kolmich\KGFCore\KGFEvent\scripts\KGFEventSequence.cs" />
-    <Compile Include="Assets\kolmich\KGFCore\KGFFPSDisplay\scripts\KGFFPSDisplay.cs" />
-    <Compile Include="Assets\kolmich\KGFCore\KGFGUIRenderer\scripts\KGFGUIRenderer.cs" />
-    <Compile Include="Assets\kolmich\KGFCore\KGFGUIRenderer\scripts\interfaces\KGFIGui2D.cs" />
-    <Compile Include="Assets\kolmich\KGFCore\KGFGUIUtility\scripts\KGFGUIUtility.cs" />
-    <Compile Include="Assets\kolmich\KGFCore\KGFGUIUtility\scripts\KGFGUIUtilityTutorial.cs" />
-    <Compile Include="Assets\kolmich\KGFCore\KGFGUIUtility\scripts\controls\KGFGUIDataTable.cs" />
-    <Compile Include="Assets\kolmich\KGFCore\KGFGUIUtility\scripts\controls\KGFGUIDropDown.cs" />
-    <Compile Include="Assets\kolmich\KGFCore\KGFGUIUtility\scripts\controls\KGFGUIObjectList.cs" />
-    <Compile Include="Assets\kolmich\KGFCore\KGFGUIUtility\scripts\controls\KGFGUISelectionList.cs" />
-    <Compile Include="Assets\kolmich\KGFCore\KGFGUIUtility\scripts\interfaces\KGFIControl.cs" />
-    <Compile Include="Assets\kolmich\KGFCore\KGFLogic\scripts\KGFLogicAnalyzer.cs" />
-    <Compile Include="Assets\kolmich\KGFCore\KGFModule\scripts\KGFModule.cs" />
-    <Compile Include="Assets\kolmich\KGFCore\KGFScreen\scripts\KGFScreen.cs" />
-    <Compile Include="Assets\kolmich\KGFCore\KGFUtility\scripts\KGFUtility.cs" />
-    <Compile Include="Assets\kolmich\KGFCore\scripts\IDReference.cs" />
-    <Compile Include="Assets\kolmich\KGFCore\scripts\KGFCoreVersion.cs" />
-    <Compile Include="Assets\kolmich\KGFCore\scripts\KGFDataTable.cs" />
-    <Compile Include="Assets\kolmich\KGFCore\scripts\KGFDelegate.cs" />
-    <Compile Include="Assets\kolmich\KGFCore\scripts\KGFDocumentation.cs" />
-    <Compile Include="Assets\kolmich\KGFCore\scripts\KGFEventExpose.cs" />
-    <Compile Include="Assets\kolmich\KGFCore\scripts\KGFGlobals.cs" />
-    <Compile Include="Assets\kolmich\KGFCore\scripts\KGFITaggable.cs" />
-    <Compile Include="Assets\kolmich\KGFCore\scripts\KGFIValidator.cs" />
-    <Compile Include="Assets\kolmich\KGFCore\scripts\KGFMessageList.cs" />
-    <Compile Include="Assets\kolmich\KGFCore\scripts\KGFObject.cs" />
-    <Compile Include="Assets\kolmich\KGFCore\scripts\KGFString.cs" />
-    <Compile Include="Assets\kolmich\KGFMapSystem\demo\scripts\KGFMapSystemScriptControlDemo.cs" />
-    <Compile Include="Assets\kolmich\KGFMapSystem\demo\scripts\KGFMapSystemStyleDemo.cs" />
-    <Compile Include="Assets\kolmich\KGFMapSystem\demo\scripts\charactercontroller.cs" />
-    <Compile Include="Assets\kolmich\KGFMapSystem\demo\scripts\charactercontroller_sidescroller.cs" />
-    <Compile Include="Assets\kolmich\KGFMapSystem\scripts\KGFIMapIcon.cs" />
-    <Compile Include="Assets\kolmich\KGFMapSystem\scripts\KGFMapIcon.cs" />
-    <Compile Include="Assets\kolmich\KGFMapSystem\scripts\KGFMapSystem.cs" />
-    <Compile Include="Assets\kolmich\KGFMapSystem\scripts\KGFMapSystemPlayMaker.cs" />
-    <Compile Include="Assets\kolmich\KGFMapSystem\scripts\KGFPhotoCapture.cs" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\Karting\Art\Fonts\ApacheLicense2.0.txt" />
-    <None Include="Assets\kolmich\KGFMapSystem\shaders\ShaderMapIcon.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
@@ -128,7 +84,6 @@
     <None Include="Assets\Racing\DropTrack\meshes\ScimitarLog.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\Racing\Shaders\PolyTerrain\FirstPassLightmap.shader" />
-    <None Include="Assets\kolmich\KGFMapSystem\shaders\ShaderMapMask.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
@@ -138,9 +93,7 @@
     <None Include="Assets\Karting\README.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
-    <None Include="Assets\kolmich\Resources\KGFSkins\default\readme.txt" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
-    <None Include="Assets\kolmich\KGFMapSystem\shaders\ShaderPhotoPlane.shader" />
     <None Include="Assets\Racing\Shaders\ShadowProjection.shader" />
     <None Include="Assets\Racing\Pro Standard Assets\Water\Sources\FX-Water.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
@@ -347,9 +300,6 @@
     </Reference>
     <Reference Include="System.Interactive.Async">
       <HintPath>D:/project/Karting/ThrillKarting/Assets/Karting/ML_Agents/Plugins/ProtoBuffer/System.Interactive.Async.dll</HintPath>
-    </Reference>
-    <Reference Include="KGFUtils.Settings">
-      <HintPath>D:/project/Karting/ThrillKarting/Assets/kolmich/KGFCore/KGFUtility/KGFUtils.Settings.dll</HintPath>
     </Reference>
     <Reference Include="Google.Protobuf">
       <HintPath>D:/project/Karting/ThrillKarting/Library/PackageCache/com.unity.barracuda@0.5.0-preview/Barracuda/Plugins/ProtoBuffer/Google.Protobuf.dll</HintPath>

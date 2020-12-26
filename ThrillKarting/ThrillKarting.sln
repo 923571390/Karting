@@ -15,8 +15,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MLAgentsToolKit.Editor", "M
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KartGame.Editor", "KartGame.Editor.csproj", "{5BAB934A-E645-2B6B-0EE4-CCB66BC608FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{FA101292-2DAB-B181-A37A-98A4D235A32C}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KartGame.AI.Editor", "KartGame.AI.Editor.csproj", "{CFEE3B10-00AF-EF2D-D381-7EEF947E15CA}"
 EndProject
 Global
@@ -53,10 +51,6 @@ Global
 		{5BAB934A-E645-2B6B-0EE4-CCB66BC608FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5BAB934A-E645-2B6B-0EE4-CCB66BC608FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5BAB934A-E645-2B6B-0EE4-CCB66BC608FE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FA101292-2DAB-B181-A37A-98A4D235A32C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FA101292-2DAB-B181-A37A-98A4D235A32C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FA101292-2DAB-B181-A37A-98A4D235A32C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FA101292-2DAB-B181-A37A-98A4D235A32C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{CFEE3B10-00AF-EF2D-D381-7EEF947E15CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{CFEE3B10-00AF-EF2D-D381-7EEF947E15CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CFEE3B10-00AF-EF2D-D381-7EEF947E15CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
