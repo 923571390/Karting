@@ -79,7 +79,7 @@ namespace KartGame.KartSystems
                 };
             }
         }
-
+        public GameObject Hand; //仪表盘的针
         public Rigidbody Rigidbody { get; private set; }
         public Vector2 Input       { get; private set; }
         public float AirPercent    { get; private set; }
@@ -170,6 +170,7 @@ namespace KartGame.KartSystems
 
             // animation
             AnimateSuspension();
+            draw();
         }
 
         void GatherInputs()
@@ -489,6 +490,11 @@ namespace KartGame.KartSystems
         public void SetCanMove(bool move)
         {
             canMove = move;
+        }
+
+        private void draw()
+        {
+            Hand.transform.rotation = Quaternion.AngleAxis((220+19 * Rigidbody.velocity.magnitude), Vector3.back);//仪表盘
         }
     }
 }
