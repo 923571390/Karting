@@ -90,6 +90,7 @@
     <Compile Include="Assets\Karting\Scripts\ObjectiveManager.cs" />
     <Compile Include="Assets\Karting\Scripts\PrefabReplacer.cs" />
     <Compile Include="Assets\Karting\Scripts\PrefabReplacerOnInstance.cs" />
+    <Compile Include="Assets\Karting\Scripts\ShowFPS.cs" />
     <Compile Include="Assets\Karting\Scripts\SimpleShaker.cs" />
     <Compile Include="Assets\Karting\Scripts\TakeScreenshot.cs" />
     <Compile Include="Assets\Karting\Scripts\TimeManager.cs" />
