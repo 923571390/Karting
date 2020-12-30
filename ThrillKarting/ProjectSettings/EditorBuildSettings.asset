@@ -23,4 +23,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Karting/Scenes/level2.unity
     guid: 715415c1df516a54598c2d1d7813393e
+  - enabled: 1
+    path: Assets/Karting/Scenes/level3.unity
+    guid: d0451126adf7c8b49ad96db6b2dbfa28
+  - enabled: 1
+    path: Assets/Karting/Scenes/level4.unity
+    guid: c4ef62348d1df5348a55e7e93aad454a
   m_configObjects: {}

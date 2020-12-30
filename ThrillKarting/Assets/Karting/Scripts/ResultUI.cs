@@ -6,7 +6,7 @@ public class ResultUI : MonoBehaviour
     // Start is called before the first frame update
     public void LoadLastScene()
     {
-        Application.LoadLevel(ddd.stage + 3);
+        Application.LoadLevel(ddd.stage + 2);
     }
     public void LoadThisScene()
     {
