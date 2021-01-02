@@ -1776,7 +1776,7 @@ PrefabInstance:
     - target: {fileID: 224389376233727394, guid: 0e5db43139d98294dbd10a8cb6c37cf9,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -75.75
+      value: -75.750015
       objectReference: {fileID: 0}
     - target: {fileID: 224389376233727394, guid: 0e5db43139d98294dbd10a8cb6c37cf9,
         type: 3}
@@ -3806,6 +3806,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Level4Button
       objectReference: {fileID: 0}
+    - target: {fileID: 1964236748743264, guid: 0e5db43139d98294dbd10a8cb6c37cf9, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 114026596320723728, guid: 0e5db43139d98294dbd10a8cb6c37cf9,
         type: 3}
       propertyPath: _data._json
@@ -3845,7 +3849,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 799613975}
+      objectReference: {fileID: 2037103995}
     - target: {fileID: 114435181168067506, guid: 0e5db43139d98294dbd10a8cb6c37cf9,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
@@ -3904,7 +3908,7 @@ PrefabInstance:
     - target: {fileID: 224389376233727394, guid: 0e5db43139d98294dbd10a8cb6c37cf9,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -75.75
+      value: -75.750015
       objectReference: {fileID: 0}
     - target: {fileID: 224389376233727394, guid: 0e5db43139d98294dbd10a8cb6c37cf9,
         type: 3}
@@ -4715,7 +4719,7 @@ PrefabInstance:
     - target: {fileID: 224389376233727394, guid: 0e5db43139d98294dbd10a8cb6c37cf9,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -75.75
+      value: -75.750015
       objectReference: {fileID: 0}
     - target: {fileID: 224389376233727394, guid: 0e5db43139d98294dbd10a8cb6c37cf9,
         type: 3}
@@ -6082,7 +6086,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -3.3999634, y: 28.200012}
+  m_AnchoredPosition: {x: -3.4000244, y: 28.200012}
   m_SizeDelta: {x: -241.3, y: -262.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1864664696
@@ -6767,7 +6771,7 @@ PrefabInstance:
     - target: {fileID: 224389376233727394, guid: 0e5db43139d98294dbd10a8cb6c37cf9,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -75.75
+      value: -75.750015
       objectReference: {fileID: 0}
     - target: {fileID: 224389376233727394, guid: 0e5db43139d98294dbd10a8cb6c37cf9,
         type: 3}

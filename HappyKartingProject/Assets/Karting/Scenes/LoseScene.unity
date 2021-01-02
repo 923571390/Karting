@@ -614,7 +614,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.226125, y: 0.7295556}
   m_AnchorMax: {x: 0.89900005, y: 1}
-  m_AnchoredPosition: {x: 108.3, y: 6.399994}
+  m_AnchoredPosition: {x: 108.30005, y: 6.4000244}
   m_SizeDelta: {x: -540.0794, y: -98.521545}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &603156905
@@ -1497,12 +1497,12 @@ PrefabInstance:
     - target: {fileID: 4068362762883836730, guid: 60682771fa277ca4b8f5c6cc1952b205,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 36
+      value: 23
       objectReference: {fileID: 0}
     - target: {fileID: 4068362762883836730, guid: 60682771fa277ca4b8f5c6cc1952b205,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 4
+      value: -6
       objectReference: {fileID: 0}
     - target: {fileID: 4068362762883836730, guid: 60682771fa277ca4b8f5c6cc1952b205,
         type: 3}
@@ -1548,6 +1548,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SwitchPanel
+      objectReference: {fileID: 0}
+    - target: {fileID: 4068362763473933744, guid: 60682771fa277ca4b8f5c6cc1952b205,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -3.3999023
       objectReference: {fileID: 0}
     - target: {fileID: 4280823805556354193, guid: 60682771fa277ca4b8f5c6cc1952b205,
         type: 3}
